@@ -3,8 +3,8 @@
 A minimalist, web-first habit tracker to create habits, mark daily progress, and visualize consistency.
 
 ## Demo
-- Video (1–2 min): [TODO: link]
-- Live URL (optional): [TODO: link]
+- Video (1–2 min): TODO
+- Live URL: TODO
 
 ## Features
 - [ ] Create habits (daily/weekly)
@@ -23,4 +23,5 @@ Instructions will be added after scaffolding client/server.
 - Categories/tags
 - Notifications
 - Calendar heatmap
+
 PK Kondapuram - prko@vt.edu

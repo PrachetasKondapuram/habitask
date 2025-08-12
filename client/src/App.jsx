@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
 import { useEffect } from 'react';
 import { Habits } from './lib/api';
 import HabitForm from './components/HabitForm';
+import HabitList from './components/HabitList';
 
 export default function App() {
   const [habits, setHabits] = useState([]);
@@ -34,7 +33,7 @@ export default function App() {
 
       {error && <p className="text-red-400 mb-4">Error: {error}</p>}
 
-      <pre>{JSON.stringify(habits, null, 2)}</pre>
+      <HabitList habits={habits} />
     </div>
   );
 }

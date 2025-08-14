@@ -111,3 +111,7 @@ Open http://localhost:5173 in your browser.
 - Categories/tags
 - Notifications
 - Calendar heatmap
+
+## Contact Information
+
+PK Kondapuram - prko@vt.edu
